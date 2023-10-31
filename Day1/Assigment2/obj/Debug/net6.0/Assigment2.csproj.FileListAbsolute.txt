@@ -1,0 +1,14 @@
+C:\Users\u31d63\source\repos\Training\Day1\Assigment2\bin\Debug\net6.0\Assigment2.exe
+C:\Users\u31d63\source\repos\Training\Day1\Assigment2\bin\Debug\net6.0\Assigment2.deps.json
+C:\Users\u31d63\source\repos\Training\Day1\Assigment2\bin\Debug\net6.0\Assigment2.runtimeconfig.json
+C:\Users\u31d63\source\repos\Training\Day1\Assigment2\bin\Debug\net6.0\Assigment2.dll
+C:\Users\u31d63\source\repos\Training\Day1\Assigment2\bin\Debug\net6.0\Assigment2.pdb
+C:\Users\u31d63\source\repos\Training\Day1\Assigment2\obj\Debug\net6.0\Assigment2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\u31d63\source\repos\Training\Day1\Assigment2\obj\Debug\net6.0\Assigment2.AssemblyInfoInputs.cache
+C:\Users\u31d63\source\repos\Training\Day1\Assigment2\obj\Debug\net6.0\Assigment2.AssemblyInfo.cs
+C:\Users\u31d63\source\repos\Training\Day1\Assigment2\obj\Debug\net6.0\Assigment2.csproj.CoreCompileInputs.cache
+C:\Users\u31d63\source\repos\Training\Day1\Assigment2\obj\Debug\net6.0\Assigment2.dll
+C:\Users\u31d63\source\repos\Training\Day1\Assigment2\obj\Debug\net6.0\refint\Assigment2.dll
+C:\Users\u31d63\source\repos\Training\Day1\Assigment2\obj\Debug\net6.0\Assigment2.pdb
+C:\Users\u31d63\source\repos\Training\Day1\Assigment2\obj\Debug\net6.0\Assigment2.genruntimeconfig.cache
+C:\Users\u31d63\source\repos\Training\Day1\Assigment2\obj\Debug\net6.0\ref\Assigment2.dll
