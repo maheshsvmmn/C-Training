@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\u31d63\source\repos\Training\Day1\Assignment5\Program.cs" Link="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="myLibrary">
+      <HintPath>..\myLibrary\bin\Debug\net6.0\myLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
