@@ -1,0 +1,14 @@
+C:\Users\u31d63\source\repos\Training\Training assignments\assignment - 8\bin\Debug\net6.0\assignment - 8.exe
+C:\Users\u31d63\source\repos\Training\Training assignments\assignment - 8\bin\Debug\net6.0\assignment - 8.deps.json
+C:\Users\u31d63\source\repos\Training\Training assignments\assignment - 8\bin\Debug\net6.0\assignment - 8.runtimeconfig.json
+C:\Users\u31d63\source\repos\Training\Training assignments\assignment - 8\bin\Debug\net6.0\assignment - 8.dll
+C:\Users\u31d63\source\repos\Training\Training assignments\assignment - 8\bin\Debug\net6.0\assignment - 8.pdb
+C:\Users\u31d63\source\repos\Training\Training assignments\assignment - 8\obj\Debug\net6.0\assignment - 8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\u31d63\source\repos\Training\Training assignments\assignment - 8\obj\Debug\net6.0\assignment - 8.AssemblyInfoInputs.cache
+C:\Users\u31d63\source\repos\Training\Training assignments\assignment - 8\obj\Debug\net6.0\assignment - 8.AssemblyInfo.cs
+C:\Users\u31d63\source\repos\Training\Training assignments\assignment - 8\obj\Debug\net6.0\assignment - 8.csproj.CoreCompileInputs.cache
+C:\Users\u31d63\source\repos\Training\Training assignments\assignment - 8\obj\Debug\net6.0\assignment - 8.dll
+C:\Users\u31d63\source\repos\Training\Training assignments\assignment - 8\obj\Debug\net6.0\refint\assignment - 8.dll
+C:\Users\u31d63\source\repos\Training\Training assignments\assignment - 8\obj\Debug\net6.0\assignment - 8.pdb
+C:\Users\u31d63\source\repos\Training\Training assignments\assignment - 8\obj\Debug\net6.0\assignment - 8.genruntimeconfig.cache
+C:\Users\u31d63\source\repos\Training\Training assignments\assignment - 8\obj\Debug\net6.0\ref\assignment - 8.dll
