@@ -1,0 +1,11 @@
+C:\Users\u31d63\source\repos\Training\Practice Day 2\myLibrary\bin\Debug\net6.0\myLibrary.deps.json
+C:\Users\u31d63\source\repos\Training\Practice Day 2\myLibrary\bin\Debug\net6.0\myLibrary.dll
+C:\Users\u31d63\source\repos\Training\Practice Day 2\myLibrary\bin\Debug\net6.0\myLibrary.pdb
+C:\Users\u31d63\source\repos\Training\Practice Day 2\myLibrary\obj\Debug\net6.0\myLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\u31d63\source\repos\Training\Practice Day 2\myLibrary\obj\Debug\net6.0\myLibrary.AssemblyInfoInputs.cache
+C:\Users\u31d63\source\repos\Training\Practice Day 2\myLibrary\obj\Debug\net6.0\myLibrary.AssemblyInfo.cs
+C:\Users\u31d63\source\repos\Training\Practice Day 2\myLibrary\obj\Debug\net6.0\myLibrary.csproj.CoreCompileInputs.cache
+C:\Users\u31d63\source\repos\Training\Practice Day 2\myLibrary\obj\Debug\net6.0\myLibrary.dll
+C:\Users\u31d63\source\repos\Training\Practice Day 2\myLibrary\obj\Debug\net6.0\refint\myLibrary.dll
+C:\Users\u31d63\source\repos\Training\Practice Day 2\myLibrary\obj\Debug\net6.0\myLibrary.pdb
+C:\Users\u31d63\source\repos\Training\Practice Day 2\myLibrary\obj\Debug\net6.0\ref\myLibrary.dll
