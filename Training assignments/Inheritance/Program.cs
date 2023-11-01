@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+            // assignmen 8
+
             // intialization through constructor
             //Result result = new Result( rn : 3 , name : "ajay" , score : 5 , marks : new List<int> { 3,4,5,4,3} );
 
