@@ -12,6 +12,7 @@ namespace Assigment6
         public string pname;
         public int qty_in_stock;
         public int distcount_allowed;
+        public double price;
         public static string brand;
 
         public void GetDetails()
@@ -21,6 +22,9 @@ namespace Assigment6
 
             Console.Write("Enter quantity in stock : ");
             qty_in_stock = Convert.ToInt32(Console.ReadLine());
+            
+            Console.Write("Enter Price : ");
+            price = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Entre discount allowed :");
             distcount_allowed = Convert.ToInt32(Console.ReadLine());
@@ -31,12 +35,13 @@ namespace Assigment6
             pcode = Console.ReadLine();
         }
 
-        public Product(string pcode, string pname, int qty_in_stock, int distcount_allowed)
+        public Product(string pcode, string pname, int qty_in_stock, int distcount_allowed , double price)
         {
             this.pcode = pcode;
             this.pname = pname;
             this.qty_in_stock = qty_in_stock;
             this.distcount_allowed = distcount_allowed;
+            this.price = price;
         }
 
         static Product()
@@ -46,7 +51,7 @@ namespace Assigment6
 
         public void DisplayDetails(string brandName)
         {
-            Console.WriteLine($"Product code : {pcode}\nProduct Name : {pname}\nQuantity : {qty_in_stock}\nDiscount : {distcount_allowed}\n Brand : {brandName}\n");
+            Console.WriteLine($"Product code : {pcode}\nProduct Name : {pname}\nQuantity : {qty_in_stock}\nPrice : {price}\nDiscount : {distcount_allowed}\n Brand : {brandName}\n");
         }
 
     }

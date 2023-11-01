@@ -5,82 +5,102 @@
         static void Main(string[] args)
         {
             List<Product> products = new List<Product>();
-            Console.Write("Who Are You >  ");
-            string person = Console.ReadLine();
 
-            if(person.ToLower() == "admin")
+            string choice = "y";
+            do
             {
-                Console.WriteLine("1. Add a Product \n2. Display all Product");
-                Console.Write("Enter your choice : ");
-                int ch = Convert.ToInt32(Console.ReadLine());
 
-                switch(ch)
+                Console.Write("Who Are You >  ");
+                string person = Console.ReadLine();
+
+                if(person.ToLower() == "admin")
                 {
-                    case 1:
-                        string pcode, pname;
-                        int qty, discount;
+                    Console.WriteLine("1. Add a Product \n2. Display all Product");
+                    Console.Write("Enter your choice : ");
+                    int ch = Convert.ToInt32(Console.ReadLine());
 
-                        Console.Write("Enter product Code : ");
-                        pcode = Console.ReadLine();
-                        
-                        Console.Write("Enter product Name : ");
-                        pname = Console.ReadLine();
+                    switch(ch)
+                    {
+                        case 1:
+                            string pcode, pname;
+                            int qty, discount;
 
-                        Console.Write("Enter quantity in stock : ");
-                        qty = Convert.ToInt32(Console.ReadLine());
-
-                        Console.Write("Entre discount allowed :");
-                        discount = Convert.ToInt32(Console.ReadLine());
-
-                        products.Add(new Product(pcode : pcode , pname : pname , qty_in_stock: qty , distcount_allowed : discount));
-                        break;
-                    case 2:
-                        
-                        foreach(var product in products)
-                        {
-                            product.DisplayDetails(Product.brand);
-                        }
-                        break;
+                            //Console.Write("Enter product Code : ");
+                            //pcode = Console.ReadLine();
+                            var product = new Product();
+                            products.Add(product);
+                            product.GetDetails();
+                            break;
+                        case 2:
+                            Console.WriteLine("\n | Products | \n");
+                            foreach (var p in products)
+                            {
+                                p.DisplayDetails(Product.brand);
+                            }
+                            break;
+                    }
                 }
-            }
-            else if(person.ToLower() == "customer")
-            {
-                Console.WriteLine("1.Display all Products \n2. Buy a Product");
-                Console.Write("Enter your choice : ");
-                int ch = Convert.ToInt32(Console.ReadLine());
-
-                switch (ch)
+                else if(person.ToLower() == "customer")
                 {
-                    case 1:
-                        foreach (var p in products)
-                        {
-                            p.DisplayDetails(Product.brand);
-                        }
-                        break;
-                    case 2:
+                    Console.WriteLine("1.Display all Products \n2. Buy a Product");
+                    Console.Write("Enter your choice : ");
+                    int ch = Convert.ToInt32(Console.ReadLine());
 
-                        string pcode;
-                        int qty;
+                    switch (ch)
+                    {
+                        case 1:
+                            Console.WriteLine("\n | Products | \n");
+                            foreach (var p in products)
+                            {
+                                p.DisplayDetails(Product.brand);
+                            }
+                            break;
+                        case 2:
 
-                        Console.Write("Enter Product code : ");
-                        pcode = Console.ReadLine();
+                            string pcode;
+                            int qty;
 
-                        Console.Write("Enter Quantity : ");
-                        qty= Convert.ToInt32(Console.ReadLine());
+                            Console.Write("Enter Product code : ");
+                            pcode = Console.ReadLine();
 
-                        var product = products.Where(p => p.pcode == pcode).ToList();
+                            Console.Write("Enter Quantity : ");
+                            qty= Convert.ToInt32(Console.ReadLine());
 
-                        if (product[0].qty_in_stock < qty)
-                        {
-                            Console.WriteLine($"Available Quantity of {product[0].pname} is lesser than you want");
-                        }
-                        else
-                        {
-                            // making a bill for coustomer
-                        }
-                        break;
+                            var product = products.Where(p => p.pcode == pcode).ToList()[0];
+
+                            if (product.qty_in_stock < qty)
+                            {
+                                Console.WriteLine($"Available Quantity of {product.pname} is lesser than you want");
+                            }
+                            else
+                            {
+                                double discount = 0;
+                                if (DateTime.Now.Day == 26)
+                                {
+                                    discount = 50;
+                                }
+                                else
+                                {
+                                    discount = product.distcount_allowed;
+                                }
+                                product.qty_in_stock -= qty;
+
+                                Console.WriteLine("\n| Your bill |\n");
+                                Console.WriteLine($"Product code : {pcode}\nProduct Name : {product.pname}\nQuantity : {qty}\nPrice : {product.price}\n" +
+                                    $"Discount : {discount}\n Brand : {Product.brand}\n");
+                                Console.WriteLine("------------------");
+
+                                Console.WriteLine($"\nTotal Amount : {qty*product.price*(100 - discount)/100}₹\n");
+                            }
+                            break;
+                    }
                 }
-            }
+
+
+                Console.WriteLine("Want to Continue ? y or n : ");
+                choice = Console.ReadLine();
+            } while (choice == "y");
+
         }
     }
 }
